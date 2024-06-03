@@ -18,7 +18,7 @@
                     position: "top",
                     height : 2,
                     content: [
-                     '<center><a href="/"><img src="/images/logo.png" class="img-fluid mm-navbar-img"></a></center>',
+                     '<center><a href="/"><img src="images/logo.png" class="img-fluid mm-navbar-img"></a></center>',
                      
                     ]
                   }
