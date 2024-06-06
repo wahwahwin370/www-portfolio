@@ -1,4 +1,4 @@
-if(isset($_POST['pgsubmitted'])) {
+<?php if(isset($_POST['pgsubmitted'])) {
                                         $yourname= $_POST['yourname'];
                                         $email = $_POST['email'];
                                         $phone = $_POST['phone'];
@@ -29,3 +29,4 @@ if(isset($_POST['pgsubmitted'])) {
                                             echo '<div class="alert alert-success"><strong>Thank you very much for contacting me.</strong></div>';
                                         }
                                     }
+                                    ?>
