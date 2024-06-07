@@ -578,53 +578,11 @@
                         <div class="col-lg-8 col-sm-7"  data-aos="fade-up-right" data-aos-duration="1200">
                             <div class="form-section">
                                 
-                                <form class="form-horizontal" action="/home/" method="post"  id="contact-form">
-                                    <div class="form-content">                        
-                                        <div class="form-group row">
-                                            <div class="col-sm-6 col-md-6 col-xs-12 ">
-                                                <div class="input-group xs-margin">
-                                                    <label>Full Name</label>
-                                                    <input class="form-control reservation-form-control" id="yourname" name="yourname"  type="text" required  autocomplete="off">
-                                                </div>                                      
-                                            </div>	
-                                            <div class="col-sm-6 col-md-6 col-xs-12">
-                                                <div class="input-group input-group-xs-view">
-                                                    <label>Company Name</label>
-                                                    <input class="form-control reservation-form-control" id="com_name" name="com_name" type="text" required autocomplete="off">
-                                                </div>                                        
-                                            </div>						
-                                        </div>
-                                        <div class="form-group row">                                    
-                                            <div class="col-sm-6 col-md-6 col-xs-12  ">
-                                                <div class="input-group xs-margin">
-                                                    <label>Email</label>
-                                                    <input class="form-control reservation-form-control" id="email" name="email" type="email"  required autocomplete="off">
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-6 col-xs-12 ">
-                                                <div class="input-group input-group-xs-view">
-                                                    <label>Phone Number</label>
-                                                    <input class="form-control reservation-form-control" id="phone" name="phone"  type="text" required  autocomplete="off">
-                                                </div>                                       
-                                            </div>
-                                        </div>                             
-                                        <div class="form-group row">
-                                            <div class="col-sm-12 col-md-12 col-xs-12">
-                                                <div class="input-group">
-                                                    <label>Your Message</label>
-                                                    <textarea  rows="4" class="form-control reservation-form-control" name="message" id="request"  ></textarea>
-                                                </div>                                       
-                                            </div>
-                                        </div>
-                                        <div class="form-group row margintop15" style="margin-top: 15px;">
-                                            <div class="col-md-12 form-margin mb30">
-                                                <input type="hidden" name="pgsubmitted" value="pgsubmitted" />
-                                                <button class=" btn btn-submit butn"data-callback='onSubmit'
-                                                    data-action='submit' data-aos="fade-right">Submit &nbsp;&nbsp;<iconify-icon icon="uit:telegram-alt" width="22px" height="22px"  style="color: #163853"></iconify-icon></button>
-                                            </div>			
-                                        </div>				
-                                    </div>
-                                </form>
+                               <form id="javascript_form">
+    <input type="text" name="subject" placeholder="Subject" />
+    <textarea name="text" placeholder="Message"></textarea>
+    <input type="submit" id="js_send" value="Send" />
+</form>
                             </div>  
                         </div>
                         <div class="col-lg-4 col-sm-5" data-aos="fade-down-left" data-aos-duration="1200">
