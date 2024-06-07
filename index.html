@@ -589,29 +589,52 @@
                     <div class="row">
                         <div class="col-lg-8 col-sm-7"  data-aos="fade-up-right" data-aos-duration="1200">
                             <div class="form-section">
-                                <div class="form-group">
-            <h5 for="name">Name</h5>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              placeholder="Enter name"
-            />
-          </div>
-          <div class="form-group">
-            <h5 for="email">Email</h5>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              placeholder="Enter email"
-            />
-          </div>
-          <div class="form-group">
-            <h5 for="message">Message</h5>
-            <textarea class="form-control" id="message" rows="3"></textarea>
-          </div>
-          <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+                                <form class="form-horizontal" action="/home/" method="post"  id="contact-form">
+                                    <div class="form-content">                        
+                                        <div class="form-group row">
+                                            <div class="col-sm-6 col-md-6 col-xs-12 ">
+                                                <div class="input-group xs-margin">
+                                                    <label>Full Name</label>
+                                                    <input class="form-control reservation-form-control" id="your_name" name="yourname"  type="text" required  autocomplete="off">
+                                                </div>                                      
+                                            </div>	
+                                            <div class="col-sm-6 col-md-6 col-xs-12">
+                                                <div class="input-group input-group-xs-view">
+                                                    <label>Company Name</label>
+                                                    <input class="form-control reservation-form-control" id="com_name" name="com_name" type="text" required autocomplete="off">
+                                                </div>                                        
+                                            </div>						
+                                        </div>
+                                        <div class="form-group row">                                    
+                                            <div class="col-sm-6 col-md-6 col-xs-12  ">
+                                                <div class="input-group xs-margin">
+                                                    <label>Email</label>
+                                                    <input class="form-control reservation-form-control" id="email" name="email" type="email"  required autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-xs-12 ">
+                                                <div class="input-group input-group-xs-view">
+                                                    <label>Phone Number</label>
+                                                    <input class="form-control reservation-form-control" id="phone" name="phone"  type="text" required  autocomplete="off">
+                                                </div>                                       
+                                            </div>
+                                        </div>                             
+                                        <div class="form-group row">
+                                            <div class="col-sm-12 col-md-12 col-xs-12">
+                                                <div class="input-group">
+                                                    <label>Your Message</label>
+                                                    <textarea  rows="4" class="form-control reservation-form-control" name="message" id="message"  ></textarea>
+                                                </div>                                       
+                                            </div>
+                                        </div>
+                                        <div class="form-group row margintop15" style="margin-top: 15px;">
+                                            <div class="col-md-12 form-margin mb30">
+                                                <button class=" btn btn-submit butn"
+                                                     data-aos="fade-right" onclick="sendMail()">Submit &nbsp;&nbsp;<iconify-icon icon="uit:telegram-alt" width="22px" height="22px"  style="color: #163853"></iconify-icon></button>
+                                            </div>			
+                                        </div>				
+                                    </div>
+                                </form>
 
                             </div>  
                         </div>
