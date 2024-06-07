@@ -165,6 +165,18 @@ document.getElementById("the-first-jam").onmouseover = function() {
 
 
 function sendMail() {
+
+    
+            var form=document.getElementById("contact-form");
+            if(form.checkValidity()){
+                form.submit();
+            }
+            else{
+                grecaptcha.reset();
+                form.reportValidity();
+            }
+        
+    
   var params = {
     name: document.getElementById("name").value,
       com_name: document.getElementById("com_name").value,
