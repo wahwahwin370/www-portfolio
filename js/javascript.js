@@ -162,11 +162,20 @@ document.getElementById("the-first-jam").onmouseover = function() {
     pro_img_background.style.background = "#e2fabe";
 }
 
-$(document).ready(function() {
-    $('input, textarea').click(function(event) {
-        event.preventDefault();
-     });
-});
+
+
+let input = document.querySelector("input");
+let button = document.querySelector("button");
+button.disabled = true;
+input.addEventListener("change", stateHandle);
+
+function stateHandle() {
+    if(document.querySelector(".input").value === "") {
+        button.disabled = true;
+    } else {
+        button.disabled = false;
+    }
+}
 function sendMail() {
   var params = {
     name: document.getElementById("name").value,
