@@ -965,7 +965,10 @@ img#project-img:hover {
 	.about-me-section .about-text h2, .projects-section h2, .qualifications-section h2, .contact-me-section h2 {
 		line-height: 27px;
 	}
-	
+	header .logo h3 {
+    		text-align: center;
+    		padding-right: 16%;
+	}
 	.top-header .logo img {
 		max-width: 250px;
 		padding: 5px 0px;
@@ -978,6 +981,9 @@ img#project-img:hover {
 	}
 	.underline-image{
 		display: none;
+	}
+	.pages-content {
+    		padding-top: 75px;
 	}
 	.banner ul{
 		display: none;
