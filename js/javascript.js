@@ -170,7 +170,7 @@ button.disabled = true;
 input.addEventListener("change", stateHandle);
 
 function stateHandle() {
-    if(document.querySelector(".input").value === "") {
+    if(document.querySelector("input").value === "") {
         button.disabled = true;
     } else {
         button.disabled = false;
