@@ -162,10 +162,11 @@ document.getElementById("the-first-jam").onmouseover = function() {
     pro_img_background.style.background = "#e2fabe";
 }
 
-
-$('input, textarea').click(function(event) {
-    event.preventDefault();
- });
+$(document).ready(function() {
+    $('input, textarea').click(function(event) {
+        event.preventDefault();
+     });
+});
 function sendMail() {
   var params = {
     name: document.getElementById("name").value,
