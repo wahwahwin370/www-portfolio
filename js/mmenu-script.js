@@ -18,7 +18,7 @@
                     position: "top",
                     height : 2,
                     content: [
-                     '<a href="/"><img src="images/logo.png" class="img-fluid mm-navbar-img"></a>',
+                     '<a href="/www-portfolio/"><img src="images/logo.png" class="img-fluid mm-navbar-img"></a>',
                      
                     ]
                   }
