@@ -64,7 +64,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background:#d3e5f166;
+        background:#d3e5f166 !important;
     }
 }
 
