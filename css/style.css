@@ -1190,6 +1190,9 @@ img#project-img:hover {
 	footer p , footer a{
 		font-size: 13px;
 	}
+	.hamburger{
+		padding-bottom:0px;
+	}
 	
 }
 
