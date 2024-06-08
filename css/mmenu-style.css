@@ -20,7 +20,11 @@
         margin-top: 4px;
     }
     .hamburger {
-        padding: 0px 0px 4px 0px;
+        padding: 0px 0px 0px 0px;
+         outline:none !important;
+    }
+    .hamburger:focus-visible{
+        outline:none !important;
     }
     .mm-menu_offcanvas.mm-menu_opened {
         z-index: 9999;
