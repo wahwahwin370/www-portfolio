@@ -1025,6 +1025,9 @@ img#project-img:hover {
 	header .row .col-xs-8{
 		max-width: 66%;
 	}
+	header .row .col-xs-10{
+		max-width: 83.33%;
+	}
 	header .row .col-xs-2{
 		max-width: 16%;
 	}
