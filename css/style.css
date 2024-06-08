@@ -93,11 +93,10 @@ a{
 	background-color: #fff;
 }
 .mm-panel:not(.mm-hidden),.mm-navbars_bottom>.mm-navbar:not(.mm-navbar_has-btns), .mm-navbars_top>.mm-navbar:not(.mm-navbar_has-btns) {
-	background: #fff;
+	background: #d3e5f166 !important;
 }
 .mm-panels>.mm-panel>.mm-listview {
 	margin: 0px; 
-	background-color: #d3e5f166;;
 }
 .mm-listitem {
 	color: #404040 !important;
