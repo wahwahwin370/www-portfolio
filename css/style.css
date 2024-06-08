@@ -756,7 +756,9 @@ img#project-img:hover {
 	.download-btn {
 		font-size: 15px;
 	}
-	
+	.contact-for-job-icon iconify-icon {
+    		padding: 2px;
+	}
 }
 
 
