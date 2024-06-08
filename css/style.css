@@ -101,7 +101,7 @@ a{
 }
 .mm-listitem ,.mm-navbars_top{
 	color: #404040 !important;
-	border-bottom: 1px solid #c4ffc228;
+	border-bottom: 1px solid #bdd4e728;
 }
 .mm-listitem_selected>.mm-listitem__text {
     background: #163853 !important;
