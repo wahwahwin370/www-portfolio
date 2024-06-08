@@ -1014,7 +1014,7 @@ img#project-img:hover {
 		margin-bottom: 40px;
 	}
 	.mm-navbar img {
-		max-width: 25%;
+        	max-width: 70px;
 	}
 	.show-sm-xs ,.show-xs{
 		display: block;
