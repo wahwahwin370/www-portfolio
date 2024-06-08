@@ -165,12 +165,13 @@ document.getElementById("the-first-jam").onmouseover = function() {
 
 
 let input = document.querySelector("input");
+let input1 = document.querySelector("textarea");
 let button = document.querySelector("button");
 button.disabled = true;
 input.addEventListener("change", stateHandle);
-
+input1.addEventListener("change", stateHandle);
 function stateHandle() {
-    if(document.querySelector("input").value === "") {
+    if(document.querySelector("input").value === "" || document.querySelector("textarea").value === "" ) {
         button.disabled = true;
     } else {
         button.disabled = false;
