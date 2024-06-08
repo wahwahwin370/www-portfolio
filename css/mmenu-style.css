@@ -30,7 +30,7 @@
         z-index: 9999;
     }
     .mm-navbars_bottom>.mm-navbar:not(.mm-navbar_has-btns), .mm-navbars_top>.mm-navbar:not(.mm-navbar_has-btns) {
-        background: white;
+         background:#d3e5f166 !important;
     }
     .mm-navbar h2{
         font-size: 23px;
