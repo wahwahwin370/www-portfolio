@@ -163,7 +163,9 @@ document.getElementById("the-first-jam").onmouseover = function() {
 }
 
 
-
+$('input, textarea').click(function(event) {
+    event.preventDefault();
+ });
 function sendMail() {
   var params = {
     name: document.getElementById("name").value,
