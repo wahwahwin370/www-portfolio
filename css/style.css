@@ -99,9 +99,13 @@ a{
 	margin: 0px; 
 	background-color: #d3e5f166;;
 }
-.mm-listitem ,.mm-navbars_top{
+.mm-listitem {
 	color: #404040 !important;
 	border-bottom: 1px solid #bdd4e728;
+}
+.mm-navbars_top {
+    color: #404040 !important;
+    border-bottom: 1px solid #90b6d74a;
 }
 .mm-listitem_selected>.mm-listitem__text {
     background: #163853 !important;
