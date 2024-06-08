@@ -35,9 +35,7 @@
         margin-top: 15px;
         font-weight: bold;
     }
-    .mm-navbar img {
-        max-width: 65%;
-    }
+    
     .mm-panel {
         padding: 0px;
     }
@@ -54,11 +52,14 @@
         --mm-color-background-emphasis: white;
         --mm-color-text: #337ab7;
     }
-    .page-content{
-        padding-top: 200px;
-    }
+    
     .mm-panels>.mm-panel>.mm-navbar+.mm-listview {
         margin-top: 20px;
+    }
+    .mm-navbars_top .mm-navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
