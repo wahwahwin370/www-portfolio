@@ -400,7 +400,7 @@ header .col-lg-7 .navbar{
 } */
 .projects-section .project-info .link-button iconify-icon{
     padding: 5px;
-	border-radius: 50px
+	border-radius: 50px;
 	    border: 1px solid transparent;
 }
 .projects-section .project-info:hover .link-button iconify-icon{
