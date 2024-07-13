@@ -923,7 +923,8 @@ img#project-img:hover {
 		text-align: center;
 	}
 	.address-detail .address .contact-icon {
-	        padding: 3px;
+	        padding: 0px;
+		padding-right:4px;
 	        width: 33px;
 	        height: 33px;
     	}
