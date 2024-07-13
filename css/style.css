@@ -912,7 +912,8 @@ img#project-img:hover {
 		font-size: 33px;
 	}
 	.address-detail .address {
-		padding: 0px 30px;
+        padding: 0px 15px;
+    
 	}
 	.address-detail .address i {
 		font-size: 15px;
@@ -922,10 +923,10 @@ img#project-img:hover {
 		text-align: center;
 	}
 	.address-detail .address .contact-icon {
-		padding: 5px;
-		width: 43px;
-		height: 43px;
-	}
+	        padding: 3px;
+	        width: 33px;
+	        height: 33px;
+    	}
 	footer {
 		padding: 30px 0px;
 	}
