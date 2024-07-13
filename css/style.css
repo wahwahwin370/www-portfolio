@@ -533,7 +533,7 @@ a:hover{
 .address-detail .address{
 	display: flex;
 	margin-bottom: 20px;
-	padding: 0px 50px;
+	padding: 0px 35px;
 	align-items: center;
 }
 .address-detail .address i{
