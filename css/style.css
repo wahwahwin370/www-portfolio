@@ -405,7 +405,9 @@ header .col-lg-7 .navbar{
 }
 .projects-section .project-info:hover .link-button iconify-icon{
     border: 1px solid #777;
+	padding: 5px;
 	transition: all 0.7s ease 0s;
+	border-radius: 50px;
 }
 a:hover{
 	color: #2a6ea6;
