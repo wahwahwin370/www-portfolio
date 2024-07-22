@@ -640,12 +640,12 @@ img#project-img:hover {
     transition: all .2s ease-in;
 }
 /* ---​ */
-.projects-section .project-info .language-used{
+/* .projects-section .project-info .language-used{
 	display:none;
 }
 .projects-section .project-info h5{
 	margin-bottom:0px;
-}
+} */
 /* ---​ */
 
 @media (min-width: 1601px) {
