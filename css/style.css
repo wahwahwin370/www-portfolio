@@ -926,6 +926,8 @@ img#project-img:hover {
 	        padding: 0px;
 		padding-right:4px;
 	        width: 33px;
+		min-width:33px;
+		min-height:33px;
 	        height: 33px;
     	}
 	footer {
