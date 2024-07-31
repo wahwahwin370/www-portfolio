@@ -737,6 +737,8 @@ img#project-img:hover {
 		padding: 10px;
 		border-radius: 50px;
 		width: 40px;
+		min-width:40px;
+		min-height:40px;
 		height: 40px;
 	}
 	.address-detail .address.main-address {
@@ -1204,6 +1206,8 @@ img#project-img:hover {
 	.address-detail .address .contact-icon {
 		padding: 7px;
 		width: 40px;
+		min-width:40px;
+		min-height:40px;
 		height: 40px;
 	}
 	.address-detail .address i {
