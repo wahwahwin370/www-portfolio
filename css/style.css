@@ -549,6 +549,8 @@ a:hover{
 	justify-content: center;
 	align-items: center;
 	height: 50px;
+	min-width:50px;
+	min-height:50px;
 }
 .address-detail {
 	border-radius: 20px;
