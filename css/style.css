@@ -222,7 +222,7 @@ header .col-lg-7 .navbar{
 	color: #163853;
 }
 .about-me-section .about-text {
-	padding-right: 120px;
+	padding-right: 100px;
 }
 .about-me-section .about-text  p{
 	margin-top: 30px;
@@ -343,10 +343,12 @@ header .col-lg-7 .navbar{
 .qualifications-section .qualification-card h5{
 	color: #163853;
 	font-size: 20px;
+	/* text-transform: uppercase; */
 }
 .qualifications-section .qualification-card p{
 	margin-bottom: 8px;
 	color: #999999;
+	text-transform: uppercase;
 }
 .certificate-name,.position{
 	margin-bottom: 10px;

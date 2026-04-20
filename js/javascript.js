@@ -50,21 +50,21 @@ const images = preloadImages(
     "images/projects/thet_me.png",
     "images/projects/siamglobalimpex.png",
     "images/projects/rotarycentralyangon.png",
-    "images/projects/unicoholding.png",
+    //"images/projects/unicoholding.png",
     "images/projects/infinity-energy.png",
     "images/projects/ako_mm_.png",
     "images/projects/mandalayparagoneng.png",
     "images/projects/yoursdesignteam.png",
     "images/projects/lseamyanmar.png",
-    "images/projects/bestfund.png",
+   // "images/projects/bestfund.png",
     "images/projects/littlestarsmm.png",
     "images/projects/7starship.png",
-    "images/projects/mpbischool.png",
+   // "images/projects/mpbischool.png",
     "images/projects/natureartmyanmar.png",
     "images/projects/goodwillmarineservices.png",
     "images/projects/nobleoceanshipping.png",
     "images/projects/oceaneliteshippingmm.png",
-    "images/projects/thefirstjam.png",
+   // "images/projects/thefirstjam.png",
     "images/www.png",
     
 )
@@ -99,10 +99,10 @@ document.getElementById("rotary-central").onmouseover = function() {
     pro_img.src = "images/projects/rotarycentralyangon.png";
     pro_img_background.style.background = "#bde3fc";
 }
-document.getElementById("unico").onmouseover = function() {
-    pro_img.src = "images/projects/unicoholding.png";
-    pro_img_background.style.background = "#e0ffb3";
-}
+// document.getElementById("unico").onmouseover = function() {
+//     pro_img.src = "images/projects/unicoholding.png";
+//     pro_img_background.style.background = "#e0ffb3";
+// }
 document.getElementById("little-star").onmouseover = function() {
     pro_img.src = "images/projects/littlestarsmm.png";
     pro_img_background.style.background = "#9cdaf7";
@@ -127,10 +127,10 @@ document.getElementById("lsea-myanmar").onmouseover = function() {
     pro_img.src = "images/projects/lseamyanmar.png";
     pro_img_background.style.background = "#e0f5ff";
 }
-document.getElementById("bestfund").onmouseover = function() {
-    pro_img.src = "images/projects/bestfund.png";
-    pro_img_background.style.background = "#e0e8ff";
-}
+// document.getElementById("bestfund").onmouseover = function() {
+//     pro_img.src = "images/projects/bestfund.png";
+//     pro_img_background.style.background = "#e0e8ff";
+// }
 document.getElementById("seven-star").onmouseover = function() {
     pro_img.src = "images/projects/7starship.png";
     pro_img_background.style.background = "#c9fdff";
@@ -139,10 +139,10 @@ document.getElementById("nature-art").onmouseover = function() {
     pro_img.src = "images/projects/natureartmyanmar.png";
     pro_img_background.style.background = "#d3ffc9";
 }
-document.getElementById("mpbi-school").onmouseover = function() {
-    pro_img.src = "images/projects/mpbischool.png";
-    pro_img_background.style.background = "#f7edeb";
-}
+// document.getElementById("mpbi-school").onmouseover = function() {
+//     pro_img.src = "images/projects/mpbischool.png";
+//     pro_img_background.style.background = "#f7edeb";
+// }
 document.getElementById("good-will").onmouseover = function() {
     pro_img.src = "images/projects/goodwillmarineservices.png";
     pro_img_background.style.background = "#d7f7f4";
@@ -155,10 +155,10 @@ document.getElementById("ocean-elite").onmouseover = function() {
     pro_img.src = "images/projects/oceaneliteshippingmm.png";
     pro_img_background.style.background = "#a7d2fc";
 }
-document.getElementById("the-first-jam").onmouseover = function() {
-    pro_img.src = "images/projects/thefirstjam.png";
-    pro_img_background.style.background = "#e2fabe";
-}
+// document.getElementById("the-first-jam").onmouseover = function() {
+//     pro_img.src = "images/projects/thefirstjam.png";
+//     pro_img_background.style.background = "#e2fabe";
+// }
 
 
 
